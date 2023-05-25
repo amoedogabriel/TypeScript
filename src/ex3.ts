@@ -1,7 +1,7 @@
 type CategoriaLivro = string; // Definindo o tipo CategoriaLivro como uma string
 
 function formatBookTitle(title: string, category: CategoriaLivro): string {
-  const formattedTitle = title.includes(" ") ? title.toLowerCase() : title.toUpperCase();
+  const formattedTitle = title.indexOf(" ") !== -1 ? title.toLowerCase() : title.toUpperCase();
   
   console.log(`Título: ${formattedTitle}`);
   console.log(`Categoria: ${category}`);

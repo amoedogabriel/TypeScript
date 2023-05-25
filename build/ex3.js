@@ -1,11 +1,10 @@
-"use strict";
 function formatBookTitle(title, category) {
-    const formattedTitle = title.includes(" ") ? title.toLowerCase() : title.toUpperCase();
-    console.log(`Título: ${formattedTitle}`);
-    console.log(`Categoria: ${category}`);
+    var formattedTitle = title.indexOf(" ") !== -1 ? title.toLowerCase() : title.toUpperCase();
+    console.log("T\u00EDtulo: ".concat(formattedTitle));
+    console.log("Categoria: ".concat(category));
     return formattedTitle;
 }
 // Exemplo de uso:
-const livro1Title = "Harry Potter";
-const livro1Category = "Fantasia";
+var livro1Title = "Harry Potter";
+var livro1Category = "Fantasia";
 formatBookTitle(livro1Title, livro1Category);
