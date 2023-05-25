@@ -13,7 +13,7 @@ type Autor = {
     livros: (Autor | Livro)[];
   };
   
-  // Criando uma biblioteca de exemplo
+ 
   const biblioteca: Biblioteca = {
     nome: "Minha Biblioteca",
     livros: [
@@ -49,7 +49,7 @@ type Autor = {
     }
   }
   
-  // Criando uma lista de bibliotecas de exemplo
+  
   const bibliotecas: Biblioteca[] = [
     biblioteca,
     {
@@ -70,6 +70,6 @@ type Autor = {
     }
   ];
   
-  // Chamando a função para imprimir os livros de cada biblioteca
+  
   imprimirLivros(bibliotecas);
   

@@ -19,8 +19,7 @@ enum Status {
     }
   
     private gerarCodigo(): string {
-      // Implemente a lógica para gerar um código único para o produto
-      // Pode ser um número aleatório ou baseado em algum critério específico
+     
       return 'COD123';
     }
   

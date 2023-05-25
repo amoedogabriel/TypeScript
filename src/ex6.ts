@@ -7,7 +7,7 @@ abstract class Conta {
   
     abstract getTipoConta(): string;
   
-    // Getter para o saldo
+    
     getSaldo(): number {
       return this.saldo;
     }
@@ -79,7 +79,7 @@ abstract class Conta {
     }
   }
   
-  // Exemplo de uso:
+
   
   const cliente1 = new Cliente('João');
   const contaPF1 = new ContaPF('12345678900', 'João Silva', 1000);
