@@ -3,7 +3,6 @@ class Conta {
     constructor(saldoInicial = 0) {
         this.saldo = saldoInicial;
     }
-    // Getter para o saldo
     getSaldo() {
         return this.saldo;
     }
@@ -57,7 +56,6 @@ class Cliente {
         console.log('---');
     }
 }
-// Exemplo de uso:
 const cliente1 = new Cliente('João');
 const contaPF1 = new ContaPF('12345678900', 'João Silva', 1000);
 cliente1.adicionarConta(contaPF1);

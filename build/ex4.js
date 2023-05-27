@@ -1,5 +1,4 @@
 "use strict";
-// Criando uma biblioteca de exemplo
 const biblioteca = {
     nome: "Minha Biblioteca",
     livros: [
@@ -34,7 +33,6 @@ function imprimirLivros(bibliotecas) {
         console.log("-------------------------");
     }
 }
-// Criando uma lista de bibliotecas de exemplo
 const bibliotecas = [
     biblioteca,
     {
@@ -54,5 +52,4 @@ const bibliotecas = [
         ]
     }
 ];
-// Chamando a função para imprimir os livros de cada biblioteca
 imprimirLivros(bibliotecas);
