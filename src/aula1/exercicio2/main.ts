@@ -1,15 +1,5 @@
-enum CategoriaLivro {
-  Ficcao = "Ficção",
-  Fantasia = "Fantasia",
-  NaoFiccao = "Não-ficção",
-  Romance = "Romance"
-}
-
-interface Livro {
-  nome: string;
-  preco: number;
-  categoria?: CategoriaLivro;
-}
+import { Livro } from './Livro';
+import { CategoriaLivro } from './CategoriaLivro';
 
 const livros: Livro[] = [
   { nome: "Livro 1", preco: 29.99, categoria: CategoriaLivro.Ficcao },

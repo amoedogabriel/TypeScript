@@ -1,8 +1,4 @@
-interface Livro {
-    nome: string;
-    preco: number;
-    categoria: string;
-  }
+import { Livro } from './Livro';
   
   const livros: Livro[] = [
     { nome: "Livro 1", preco: 29.99, categoria: "Ficção" },
