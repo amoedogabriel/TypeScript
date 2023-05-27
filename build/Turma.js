@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Turma = void 0;
-var Turma = /** @class */ (function () {
+var Turma = exports.Turma = /** @class */ (function () {
     function Turma(_id, _descricao, _turno, _curso) {
         this._id = _id;
         this._descricao = _descricao;
@@ -49,4 +49,3 @@ var Turma = /** @class */ (function () {
     Turma.contadorId = 1;
     return Turma;
 }());
-exports.Turma = Turma;

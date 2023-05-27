@@ -1,5 +1,5 @@
-import { Turno } from "../aula3/Turno";
-import { Area} from "../aula3/Area";
+import { Turno } from './Turno';
+import { Area} from './Area';
 
 console.log("Adicionando turma...");
 

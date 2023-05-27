@@ -34,7 +34,7 @@ type Autor = {
     ]
   };
   
-  // Acessando e imprimindo os livros de cada biblioteca
+  
   function imprimirLivros(bibliotecas: Biblioteca[]): void {
     for (const biblioteca of bibliotecas) {
       console.log(`Livros da biblioteca ${biblioteca.nome}:`);

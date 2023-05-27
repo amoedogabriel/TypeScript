@@ -1,5 +1,4 @@
-"use strict";
-const biblioteca = {
+var biblioteca = {
     nome: "Minha Biblioteca",
     livros: [
         {
@@ -18,22 +17,23 @@ const biblioteca = {
         }
     ]
 };
-// Acessando e imprimindo os livros de cada biblioteca
 function imprimirLivros(bibliotecas) {
-    for (const biblioteca of bibliotecas) {
-        console.log(`Livros da biblioteca ${biblioteca.nome}:`);
-        for (const item of biblioteca.livros) {
+    for (var _i = 0, bibliotecas_1 = bibliotecas; _i < bibliotecas_1.length; _i++) {
+        var biblioteca_1 = bibliotecas_1[_i];
+        console.log("Livros da biblioteca ".concat(biblioteca_1.nome, ":"));
+        for (var _a = 0, _b = biblioteca_1.livros; _a < _b.length; _a++) {
+            var item = _b[_a];
             if ("titulo" in item) {
-                console.log(`Livro: ${item.titulo}, Autor: ${item.autor.nome}`);
+                console.log("Livro: ".concat(item.titulo, ", Autor: ").concat(item.autor.nome));
             }
             else {
-                console.log(`Autor: ${item.nome}`);
+                console.log("Autor: ".concat(item.nome));
             }
         }
         console.log("-------------------------");
     }
 }
-const bibliotecas = [
+var bibliotecas = [
     biblioteca,
     {
         nome: "Outra Biblioteca",

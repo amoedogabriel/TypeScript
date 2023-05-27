@@ -1,5 +1,8 @@
+import { Turno } from './Turno';
+import { Curso } from './Curso';
 
-class Turma {
+
+export class Turma {
   [x: string]: any;
   private static contadorId: number = 1;
 
@@ -41,4 +44,3 @@ class Turma {
   }
 }
 
-export { Turma };
